@@ -1,9 +1,9 @@
 import React from "react";
 import {Route , Switch,Redirect} from 'react-router-dom'
-import User from '../user/user.js'
-import Sidebar from '../sidebar/sidebar.js'
-import About from '../about/about.js'
-import Home from '../home/home.js'
+import User from '../../pages/user/index.js'
+import Sidebar from '../../pages/sidebar/index.js'
+import About from '../../pages/about/index.js'
+import Home from '../../pages/home/index.js'
 
 const HomePage = ({ match })=> (
   <div className="Home-page">
